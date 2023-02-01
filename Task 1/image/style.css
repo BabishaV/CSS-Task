@@ -1,0 +1,25 @@
+body{
+    margin-top:100px;
+    }
+    .rose
+    {
+     width:750px;
+    height:400px;
+    margin:auto;
+    background-color:#D3D3D3;
+    padding:10px;
+    }
+    
+    
+    .float 
+    {
+      width: 200px;
+        height: 150px;
+        float: right;
+        padding:10px;
+    }
+    
+    p{
+      font-size:20px;
+    padding:10px;
+    }
