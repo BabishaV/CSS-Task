@@ -1,0 +1,31 @@
+table{
+    
+    width:80%;
+    font-size: 40px;
+    text-align: center;
+    margin:auto;
+    border:2px solid black;
+    border-collapse: collapse;
+    padding-top: 10px;
+}
+
+td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+}
+
+
+p{
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+    
+}
+body{
+    background-color: gray;
+    margin-top: 60px;
+}
