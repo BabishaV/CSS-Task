@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow:hidden;
+  padding-top:20px;
+  padding-right:20px;
+  color:#fff;
+}
+
+.image{
+  position: fixed;
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./product2.jpg);
+  top:0;
+  z-index: -1;
+}
+h1{
+  text-align:center;
+  color:white;
+}
+label{
+  color: aliceblue;
+  display: inline-block;
+  width:200px;
+  text-align: justify;
+  
+}
+.container{
+  
+  background-color:rgba(29, 82, 143, 0.5);
+  margin: auto;
+  padding-top: 10%;
+  padding: 10px;
+  width:70%;
+  height:70%;
+  
+  
+}
+#button,#placeorder{
+  background-color: orange;
+  color:azure;
+  height:55px;
+  width:160px;
+  position: relative;
+  left:200px;
+}
+#placeorder{
+ 
+  background-color:rgb(78, 78, 216);
+}
+p{
+  text-align: center;
+  color: aliceblue;
+}
+input,select{
+  background-color: rgb(162, 182, 235);
+  border:1px solid white;
+  width:25%;
+  height:25px;
+  margin-top: 10px;
+}
+#number{
+  width:7%;
+}
+
+a{
+  color:red;
+}
+.bill{
+  width:50%;
+}
+#country, #state, #lastname{
+ 
+}
