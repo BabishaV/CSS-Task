@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>task3</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <input type="text" id="text" onclick="showAlert()" class="input-field">
+       
+        <p id="myText"></p>
+    </body>
+    <script>
+        function showAlert() {
+            var myText = document.getElementById("text").value;
+            document.getElementById("myText").textContent = myText;
+           
+        }
+    </script>
+</html>
