@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .rose
+    {
+    width:50%;
+    
+    margin:2%;
+    background-color:#D3D3D3;
+    padding:2%;
+    
+    }
+
+    .float 
+    {
+      position:absolute;
+      width: 200px;
+      height: 170px;
+      left:60%;
+      padding-top:2%;
+    }
+    
+    p{
+      width:70%;
+      font-size: 20px;
+    }
+    .p1{
+      width:100%;
+      font-size: 20px;
+    }
