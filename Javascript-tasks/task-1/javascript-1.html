@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Javascript-1</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <button onclick="showAlert(this)" class="btn btn-1" >A</button>
+            <button onclick="showAlert(this)" class="btn btn-2">B</button>
+            <button onclick="showAlert(this)" class="btn btn-3">C</button>
+            <button onclick="showAlert(this)" class="btn btn-4">D</button>
+        </div>
+        <script>
+            var myText="";
+
+            function showAlert(button){
+              if(myText !=""){
+                alert(myText +","+ button.innerHTML);
+              }
+              else{
+                alert(button.innerHTML);
+              }
+              myText=button.innerHTML;
+            }
+        </script>
+    </body>
+</html>
