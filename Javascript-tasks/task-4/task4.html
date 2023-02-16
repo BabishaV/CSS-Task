@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Javascript-4</title>
+    </head>    
+    <body>
+       <ul>
+        <li onclick="changeBgColor(this)">Abi</li>
+        <li onclick="changeBgColor(this)">Saja</li>
+        <li onclick="changeBgColor(this)">Arshiya</li>
+        <li onclick="changeBgColor(this)">Babisha</li>
+        <li onclick="changeBgColor(this)">Jasmine</li>
+        <li onclick="changeBgColor(this)">Fathima</li>
+        <li onclick="changeBgColor(this)">Shalu</li>
+        <li onclick="changeBgColor(this)">Sneha</li>
+        <li onclick="changeBgColor(this)">Akila</li>
+        <li onclick="changeBgColor(this)">Lifna</li>
+      </ul>
+
+    <script>
+        function changeBgColor(li) {
+            let firstLetter = li.innerHTML[0];
+                 if (firstLetter === 'A' || firstLetter === 'E' || firstLetter === 'I' || firstLetter === 'O' || firstLetter === 'U') 
+                {
+                    li.style.background = 'red';
+                }
+                else {
+                    li.style.background = 'green';
+                }
+        }
+            </script>
+        </body>
+    </head>
+</html>
