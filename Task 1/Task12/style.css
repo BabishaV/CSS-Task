@@ -1,0 +1,79 @@
+.container {
+    height: 800px;
+    width: 800px;
+    margin-left: 350px;
+    position: relative;
+    color: white;
+}
+.parent {
+    width: 600px;
+    height: 600px;
+    right: calc(100% - 700px);
+    top: calc(100% - 700px);
+    z-index: 1;
+}
+.parent, .box1, .box2, .box3, .box4 {
+    position: absolute;
+}
+div {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.box1 {
+    background-color: rgb(250, 15, 23);
+}
+.box2 {
+    background-color: rgb(130, 219, 122);
+    right: calc(100% - 505px);
+}
+.box3, .box4 {
+    bottom: calc(600px - 505px);
+}
+.box3 {
+    background-color: rgb(236, 137, 32);
+}
+.box4 {
+    background-color:  rgb(19, 51, 100);
+    right: calc(100% - 505px);
+}
+span {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+.top-box1, .top-box2, .side-box1, .side-box2 {
+    background-color: rgb(109, 90, 90);
+}
+.top-box1 {
+    margin-left: calc(100% - 650px);
+}
+.top-box2 {
+    margin-left: calc(100% - 700px);
+}
+p{
+    padding-top: 70px;
+}
+.side {
+    display: block;
+}
+.side-box1, .side-box2 {
+    margin-left: 10px;
+    transform: rotate(-90deg);
+}
+.side-box1 {
+    margin-top: calc(100% - 800px);
+}
+.side-box2 {
+    margin-top: calc(100% - 575px);
+}
+.digit, .content {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+ 
